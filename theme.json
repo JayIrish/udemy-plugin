@@ -125,7 +125,7 @@
         "elements": {
             "link": {
                 "color": {
-                    "text": "var(--wp--preset--color--u-primary) !important"
+                    "text": "var(--wp--preset--color--u-primary)"
                 }
             }
         },
@@ -173,5 +173,14 @@
             },
             "blockGap": "4rem"
         }
-    }
+    },
+    "customTemplates": [
+        {
+            "name": "full-width-page",
+            "title": "Full Width Page",
+            "postTypes": [
+                "page"
+            ]
+        }
+    ]
 }
